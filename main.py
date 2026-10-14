@@ -2,6 +2,7 @@ from typing import List
 
 
 def twoSum(nums: List[int], target: int) -> List[int]:
+	# Store previously seen numbers and their indices
     seen = {}
 
     for i, num in enumerate(nums):
